@@ -1,21 +1,33 @@
 /*CLASES TIPOS DE ANIMALES (LEÓN, LOBO, OSO, SERPIENTE, AGUILA) EXTENDIDA DE ANIMAL */
+import { Animal } from "./Animal.js";
 
- export class Leon extends Animal{
-
+//Define una clase llamada león que se extiende de animal heredando sus metodos y atributos
+export class Leon extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido) {
+    super(nombre, edad, img, comentarios, sonido);
+  }
 }
 
- export class Lobo extends Animal{
-    
+export class Lobo extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido) {
+    super(nombre, edad, img, comentarios, sonido);
+  }
 }
 
-export class Oso extends Animal{
-    
+export class Oso extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido) {
+    super(nombre, edad, img, comentarios, sonido);
+  }
 }
 
-export class Serpiente extends Animal{
-    
+export class Serpiente extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido) {
+    super(nombre, edad, img, comentarios, sonido);
+  }
 }
 
-export class Aguila extends Animal{
-    
+export class Aguila extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido) {
+    super(nombre, edad, img, comentarios, sonido);
+  }
 }
