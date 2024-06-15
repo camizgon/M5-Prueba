@@ -32,10 +32,12 @@ body {
 
 #Animales div div {
   transition: all 200ms;
+  overflow: hidden;
 }
 
 #Animales div >div:hover {
   box-shadow: 0px 1px 5px 1px;
+  overflow: hidden;
 }
 
 .participante {
