@@ -1,4 +1,5 @@
 /*CLASES TIPOS DE ANIMALES (LEÓN, LOBO, OSO, SERPIENTE, AGUILA) EXTENDIDA DE ANIMAL */
+//Punto 1 : Crear las clases representadas en el diagrama implementando la herencia indicada. PUNTO 5: Dividir el código en módulos
 import { Animal } from "./Animal.js";
 
 //Define una clase llamada león que se extiende de animal heredando sus metodos y atributos

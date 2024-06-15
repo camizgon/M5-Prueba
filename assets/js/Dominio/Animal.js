@@ -1,3 +1,4 @@
+ // Punto 1 : Crear las clases representadas en el diagrama implementando la herencia indicada. 
  export class Animal {
     // Declaro los "Atributos" de la clase Animal
     #nombre;
@@ -44,11 +45,5 @@
         return this.#sonido;
     }
 
-    /* MÉTODO PARA REPRODUCIR EL SONIDO */
-    makeSound() {
-        const player = document.getElementById('player');
-        player.src = this.#sonido;
-        player.play();
-    }
 }
 
