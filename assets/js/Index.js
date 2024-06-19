@@ -1,4 +1,4 @@
-// Importar clases de animales desde sus respectivos archivos
+// Importar clases de animales desde sus respectivos archivos.
 import { Leon } from "./Dominio/Leon.js";
 import { Lobo } from "./Dominio/Lobo.js";
 import { Oso } from "./Dominio/Oso.js";
